@@ -38,3 +38,19 @@ int main(){
 	smaug.claws = 4;
 	smaug.fire = 90;
 	
+
+	beast[0] = nightfury;
+	beast[1] = trogdor;
+	beast[2] = puff;
+	beast[3] = smaug;
+
+	for (int i = 0; i <= 3; i++){
+		cout << "Name: " << beast[i].name << endl;
+		cout << "Wings: " << beast[i].wings << endl;
+		cout << "Claws: " << beast[i].claws << endl;
+		cout << "FIRE POWAAAA!1!!: " << beast[i].fire << endl;
+		cout << endl;
+	}
+
+	return 0;
+}
